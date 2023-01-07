@@ -163,20 +163,18 @@
     <antVersion>1.10.12</antVersion>
     
     <groovyVersion>4.0.7</groovyVersion>
-    <groovy3Version>3.0.13</groovy3Version>
-
-    <javaparserVersion>3.24.9</javaparserVersion>
+    <javaparserVersion>3.24.10</javaparserVersion>
 
     <doxiaVersion>1.11.1</doxiaVersion>
     <doxiaSiteToolsVersion>1.11.1</doxiaSiteToolsVersion>
 
-    <mavenCoreVersion>3.8.6</mavenCoreVersion>
+    <mavenCoreVersion>3.8.7</mavenCoreVersion>
     <mavenSharedUtilsVersion>3.3.4</mavenSharedUtilsVersion>
     <mavenTransferVersion>0.13.1</mavenTransferVersion>
     <mavenCommonArtifactFilters>3.3.2</mavenCommonArtifactFilters>
     <mavenReportingApiVersion>3.1.1</mavenReportingApiVersion>
     <mavenReportingVersion>3.2.0</mavenReportingVersion>
-    <mavenVersion>3.8.6</mavenVersion>
+    <mavenVersion>3.8.7</mavenVersion>
 
     <plexusContainerVersion>2.1.1</plexusContainerVersion>
     <plexusResourcesVersion>1.2.0</plexusResourcesVersion>

@@ -5,13 +5,13 @@
   <parent>
     <groupId>com.github.hazendaz</groupId>
     <artifactId>base-parent</artifactId>
-    <version>37</version>
+    <version>38</version>
     <relativePath />
   </parent>
 
   <groupId>com.github.spotbugs</groupId>
   <artifactId>spotbugs-maven-plugin</artifactId>
-  <version>4.7.3.1-SNAPSHOT</version>
+  <version>4.7.3.3-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>SpotBugs Maven Plugin</name>
@@ -147,7 +147,7 @@
     <projectVersion>${project.version}</projectVersion>
 
     <!-- Reproducible Builds: override timestamp value from parent -->
-    <project.build.outputTimestamp>1667846445</project.build.outputTimestamp>
+    <project.build.outputTimestamp>1677374551</project.build.outputTimestamp>
 
     <!-- Override spotbugs to this version from base-parent -->
     <spotbugs.version>4.7.3</spotbugs.version>
@@ -187,11 +187,11 @@
     <infoReportsPluginVersion>3.4.2</infoReportsPluginVersion>
     <invokerPluginVersion>3.5.0</invokerPluginVersion>
     <javadocPluginVersion>3.5.0</javadocPluginVersion>
-    <pluginPluginVersion>3.7.1</pluginPluginVersion>
+    <pluginPluginVersion>3.8.1</pluginPluginVersion>
     <scmPluginVersion>1.13.0</scmPluginVersion>
     <sitePluginVersion>3.12.1</sitePluginVersion>
     <sitePlugin36Version>3.6</sitePlugin36Version> <!-- For MFINDBUGS-145 (breaks on newer jdks, revisit this on spotbugs 4.8.x and simply drop the old support) -->
-    <versionsPluginVersion>2.14.2</versionsPluginVersion>
+    <versionsPluginVersion>2.15.0</versionsPluginVersion>
 
     <spotbugsTestDebug>false</spotbugsTestDebug>
     <integrationTestSrc>${project.build.directory}/it-src-spotbugs</integrationTestSrc>

@@ -162,7 +162,7 @@
 
     <antVersion>1.10.13</antVersion>
     <groovyVersion>4.0.7</groovyVersion>
-    <javaparserVersion>3.25.0</javaparserVersion>
+    <javaparserVersion>3.25.1</javaparserVersion>
 
     <doxiaVersion>1.12.0</doxiaVersion>
     <doxiaSiteToolsVersion>1.11.1</doxiaSiteToolsVersion>
@@ -177,7 +177,7 @@
 
     <plexusContainerVersion>2.1.1</plexusContainerVersion>
     <plexusResourcesVersion>1.2.0</plexusResourcesVersion>
-    <plexusUtilsVersion>3.5.0</plexusUtilsVersion>
+    <plexusUtilsVersion>3.5.1</plexusUtilsVersion>
 
     <antrunPluginVersion>3.1.0</antrunPluginVersion>
     <l10nPluginVersion>1.0.0</l10nPluginVersion>

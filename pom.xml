@@ -5,13 +5,13 @@
   <parent>
     <groupId>com.github.hazendaz</groupId>
     <artifactId>base-parent</artifactId>
-    <version>38</version>
+    <version>39</version>
     <relativePath />
   </parent>
 
   <groupId>com.github.spotbugs</groupId>
   <artifactId>spotbugs-maven-plugin</artifactId>
-  <version>4.7.3.3-SNAPSHOT</version>
+  <version>4.7.3.4-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>SpotBugs Maven Plugin</name>
@@ -147,7 +147,7 @@
     <projectVersion>${project.version}</projectVersion>
 
     <!-- Reproducible Builds: override timestamp value from parent -->
-    <project.build.outputTimestamp>1677374551</project.build.outputTimestamp>
+    <project.build.outputTimestamp>1679579370</project.build.outputTimestamp>
 
     <!-- Override spotbugs to this version from base-parent -->
     <spotbugs.version>4.7.3</spotbugs.version>
@@ -711,7 +711,7 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-plugin-plugin</artifactId>
+        <artifactId>maven-plugin-report-plugin</artifactId>
         <version>${pluginPluginVersion}</version>
         <configuration>
           <requirements>

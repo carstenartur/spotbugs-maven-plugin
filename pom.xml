@@ -11,7 +11,7 @@
 
   <groupId>com.github.spotbugs</groupId>
   <artifactId>spotbugs-maven-plugin</artifactId>
-  <version>4.7.3.4-SNAPSHOT</version>
+  <version>4.7.3.5-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>SpotBugs Maven Plugin</name>
@@ -147,7 +147,7 @@
     <projectVersion>${project.version}</projectVersion>
 
     <!-- Reproducible Builds: override timestamp value from parent -->
-    <project.build.outputTimestamp>1679579370</project.build.outputTimestamp>
+    <project.build.outputTimestamp>1680820879</project.build.outputTimestamp>
 
     <!-- Override spotbugs to this version from base-parent -->
     <spotbugs.version>4.7.3</spotbugs.version>
@@ -158,22 +158,22 @@
     <junitVersion>5.9.2</junitVersion>
     <spotbugsVersion>4.7.3</spotbugsVersion>
     <spotbugsTag>4.7.3</spotbugsTag>
-    <slf4jVersion>2.0.6</slf4jVersion>
+    <slf4jVersion>2.0.7</slf4jVersion>
 
     <antVersion>1.10.13</antVersion>
-    <groovyVersion>4.0.10</groovyVersion>
+    <groovyVersion>4.0.11</groovyVersion>
     <javaparserVersion>3.25.2</javaparserVersion>
 
     <doxiaVersion>1.12.0</doxiaVersion>
     <doxiaSiteToolsVersion>1.11.1</doxiaSiteToolsVersion>
 
-    <mavenCoreVersion>3.9.0</mavenCoreVersion>
+    <mavenCoreVersion>3.9.1</mavenCoreVersion>
     <mavenSharedUtilsVersion>3.3.4</mavenSharedUtilsVersion>
     <mavenTransferVersion>0.13.1</mavenTransferVersion>
     <mavenCommonArtifactFilters>3.3.2</mavenCommonArtifactFilters>
     <mavenReportingApiVersion>3.1.1</mavenReportingApiVersion>
     <mavenReportingVersion>3.2.0</mavenReportingVersion>
-    <mavenVersion>3.9.0</mavenVersion>
+    <mavenVersion>3.9.1</mavenVersion>
 
     <plexusContainerVersion>2.1.1</plexusContainerVersion>
     <plexusResourcesVersion>1.2.0</plexusResourcesVersion>
@@ -185,10 +185,10 @@
 
     <gmavenPluginVersion>2.1.0</gmavenPluginVersion>
     <infoReportsPluginVersion>3.4.2</infoReportsPluginVersion>
-    <invokerPluginVersion>3.5.0</invokerPluginVersion>
+    <invokerPluginVersion>3.5.1</invokerPluginVersion>
     <javadocPluginVersion>3.5.0</javadocPluginVersion>
     <pluginPluginVersion>3.8.1</pluginPluginVersion>
-    <scmPluginVersion>1.13.0</scmPluginVersion>
+    <scmPluginVersion>2.0.0</scmPluginVersion>
     <sitePluginVersion>3.12.1</sitePluginVersion>
     <sitePlugin36Version>3.6</sitePlugin36Version> <!-- For MFINDBUGS-145 (breaks on newer jdks, revisit this on spotbugs 4.8.x and simply drop the old support) -->
     <versionsPluginVersion>2.15.0</versionsPluginVersion>
@@ -206,17 +206,17 @@
     <skipSurefireReport>true</skipSurefireReport>
 
     <!-- Used by Integration tests -->
-    <compilerPluginVersion>3.10.1</compilerPluginVersion>
+    <compilerPluginVersion>3.11.0</compilerPluginVersion>
     <findsecbugsVersion>1.12.0</findsecbugsVersion>
-    <jxrPluginVersion>3.2.0</jxrPluginVersion>
-    <mavenSurefireVersion>3.0.0-M9</mavenSurefireVersion>
+    <jxrPluginVersion>3.3.0</jxrPluginVersion>
+    <mavenSurefireVersion>3.0.0</mavenSurefireVersion>
     <jakartaeeApiVersion>8.0.0</jakartaeeApiVersion>
     <servletApiVersion>4.0.4</servletApiVersion>
-    <sb-contribVersion>7.4.7</sb-contribVersion>
+    <sb-contribVersion>7.6.0</sb-contribVersion>
 
     <jgit.version>5.13.1.202206130422-r</jgit.version>
     <!-- Targeted patches -->
-    <asm.version>9.4</asm.version>
+    <asm.version>9.5</asm.version>
     <beanutils.version>1.9.4</beanutils.version>
     <chain.version>1.2</chain.version>
     <codec.version>1.15</codec.version>

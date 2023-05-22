@@ -161,19 +161,19 @@
     <slf4jVersion>2.0.7</slf4jVersion>
 
     <antVersion>1.10.13</antVersion>
-    <groovyVersion>4.0.11</groovyVersion>
-    <javaparserVersion>3.25.2</javaparserVersion>
+    <groovyVersion>4.0.12</groovyVersion>
+    <javaparserVersion>3.25.3</javaparserVersion>
 
     <doxiaVersion>1.12.0</doxiaVersion>
     <doxiaSiteToolsVersion>1.11.1</doxiaSiteToolsVersion>
 
-    <mavenCoreVersion>3.9.1</mavenCoreVersion>
-    <mavenSharedUtilsVersion>3.3.4</mavenSharedUtilsVersion>
+    <mavenCoreVersion>3.9.2</mavenCoreVersion>
+    <mavenSharedUtilsVersion>3.4.2</mavenSharedUtilsVersion>
     <mavenTransferVersion>0.13.1</mavenTransferVersion>
     <mavenCommonArtifactFilters>3.3.2</mavenCommonArtifactFilters>
     <mavenReportingApiVersion>3.1.1</mavenReportingApiVersion>
     <mavenReportingVersion>3.2.0</mavenReportingVersion>
-    <mavenVersion>3.9.1</mavenVersion>
+    <mavenVersion>3.9.2</mavenVersion>
 
     <plexusContainerVersion>2.1.1</plexusContainerVersion>
     <plexusResourcesVersion>1.2.0</plexusResourcesVersion>
@@ -187,8 +187,8 @@
     <infoReportsPluginVersion>3.4.3</infoReportsPluginVersion>
     <invokerPluginVersion>3.5.1</invokerPluginVersion>
     <javadocPluginVersion>3.5.0</javadocPluginVersion>
-    <pluginPluginVersion>3.8.2</pluginPluginVersion>
-    <scmPluginVersion>2.0.0</scmPluginVersion>
+    <pluginPluginVersion>3.9.0</pluginPluginVersion>
+    <scmPluginVersion>2.0.1</scmPluginVersion>
     <sitePluginVersion>3.12.1</sitePluginVersion>
     <sitePlugin36Version>3.6</sitePlugin36Version> <!-- For MFINDBUGS-145 (breaks on newer jdks, revisit this on spotbugs 4.8.x and simply drop the old support) -->
     <versionsPluginVersion>2.15.0</versionsPluginVersion>
@@ -222,7 +222,7 @@
     <codec.version>1.15</codec.version>
     <collections.version>3.2.2</collections.version>
     <digester.version>2.1</digester.version>
-    <io.version>2.11.0</io.version>
+    <io.version>2.12.0</io.version>
     <lang2.version>2.6</lang2.version>
     <lang3.version>3.12.0</lang3.version>
 
